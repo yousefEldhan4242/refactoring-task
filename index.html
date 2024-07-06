@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modular HTML and CSS Training</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container header">
+      <h1>Company Name</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <section id="home" class="container">
+      <h2>Welcome to Our Website</h2>
+      <p>This is the home section.</p>
+    </section>
+    <section id="services" class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3>Web Design</h3>
+          <p>Beautiful and responsive web designs tailored to your needs.</p>
+        </div>
+        <div class="service">
+          <h3>Development</h3>
+          <p>Full-stack web development solutions using modern technologies.</p>
+        </div>
+        <div class="service">
+          <h3>SEO Optimization</h3>
+          <p>Boost your online presence with our SEO strategies.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="container">
+      <h2>About Us</h2>
+      <p>Learn about our team and our mission.</p>
+    </section>
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>&copy; 2024 Company Name. All rights reserved.</footer>
+  </body>
+</html>
